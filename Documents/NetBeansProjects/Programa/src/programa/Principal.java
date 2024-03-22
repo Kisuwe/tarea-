@@ -16,6 +16,7 @@ public class Principal {
 
         // Mostrar información de c1
         System.out.println("\nInformación de c1:");
+        System.out.println("Radio: " + c1.getRadio());
         System.out.println("Diametro: " + c1.getDiametro());
         System.out.println("Longitud: " + c1.getLongitud());
         System.out.println("Area: " + c1.getArea());
