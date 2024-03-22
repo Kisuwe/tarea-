@@ -11,7 +11,11 @@ public class Circunferencia {
 
     // Constructor por defecto
     public Circunferencia() {
-        this.radio = 0.0;
+        this.radio = 5.0;
+        calcularDiametro();
+        calcularLongitud();
+        calcularArea();
+        
     }
 
     // Constructor con radio
@@ -60,6 +64,13 @@ public class Circunferencia {
         area = PI * radio * radio;
     }
 
+    // Getter del area
+    public double getArea() {
+        return area;
+    }
+
+   
+    }
     // Getter del area
     public double getArea() {
         return area;
